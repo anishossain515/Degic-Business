@@ -4,6 +4,8 @@ import Hero from './Components/Hero'
 import Presentation from './Components/presentation'
 import Slider from './Components/Slider/Slider'
 import Video from './Components/video'
+import Work from './Components/Work/Work'
+
 function App() {
 
   return (
@@ -13,6 +15,7 @@ function App() {
      <Presentation/>
      <Slider/>
      <Video/>
+     <Work/>
     </>
   )
 }
