@@ -3,6 +3,7 @@ import { Navbar } from './Components/Navbar'
 import Hero from './Components/Hero'
 import Presentation from './Components/presentation'
 import Slider from './Components/Slider/Slider'
+import Video from './Components/video'
 function App() {
 
   return (
@@ -11,6 +12,7 @@ function App() {
      <Hero/>
      <Presentation/>
      <Slider/>
+     <Video/>
     </>
   )
 }
