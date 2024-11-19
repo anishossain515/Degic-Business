@@ -21,7 +21,7 @@ function Hero() {
 
       {/* Hero Image Section */}
       <div>
-        <img src="/hero.png" alt="hero" className="w-full object-contain" />
+        <img src="/hero.png" alt="hero" className="w-full h-auto max-w-lg" />
       </div>
     </section>
   );

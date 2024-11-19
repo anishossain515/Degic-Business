@@ -1,13 +1,14 @@
 import './App.css'
-import Button from '@mui/material/Button'
 import { Navbar } from './Components/Navbar'
 import Hero from './Components/Hero'
+import Presentation from './Components/presentation'
 function App() {
 
   return (
     <>
      <Navbar/>
      <Hero/>
+     <Presentation/>
     </>
   )
 }
