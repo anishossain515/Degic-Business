@@ -6,6 +6,7 @@ import Slider from './Components/Slider_Section/Slider'
 import Video from './Components/video'
 import Work from './Components/Work_Section/Work'
 import Bomb from './Components/Bomb'
+import Block from './Components/Block Section/Block'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
      <Video/>
      <Work/>
      <Bomb/>
+     <Block/>
     </>
   )
 }
