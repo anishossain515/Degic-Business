@@ -12,7 +12,7 @@ function Block() {
         <div className="mt-10 grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px] justify-items-center">
 
           {BlockData.map(({ blockImg, blockHead, des, miniCard }, index) => (
-            <div className="hover:cursor-pointer hover:shadow-xl rounded-bl-lg rounded-br-lg hover:bg-[#f6f6f6]">
+            <div key={index} className="hover:cursor-pointer hover:shadow-xl rounded-bl-lg rounded-br-lg hover:bg-[#f6f6f6]">
               <BlockCard
                 blockHead={blockHead}
                 blockImg={blockImg}

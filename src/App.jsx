@@ -7,6 +7,7 @@ import Video from './Components/video'
 import Work from './Components/Work_Section/Work'
 import Bomb from './Components/Bomb'
 import Block from './Components/Block Section/Block'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
      <Work/>
      <Bomb/>
      <Block/>
+     <Footer/>
     </>
   )
 }
