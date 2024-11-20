@@ -3,7 +3,7 @@ import React from 'react'
 function Video() {
   return (
     <>
-      <section className='mt-[130px] bg-[#f9f9f9]  py-24 px-12'>
+      <section className='mt-[130px] bg-[#f9f9f9]  py-24 sm:px-12 px-5'>
 
         <div>
 
