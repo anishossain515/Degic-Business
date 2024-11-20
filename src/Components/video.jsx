@@ -7,7 +7,7 @@ function Video() {
 
         <div>
 
-          <h1 className='font-inter font-medium text-[55px] text-center'>Use illustrations in UI design</h1>
+          <h1 className='font-inter font-medium md:text-[55px] sm:text-5xl text-2xl text-center'>Use illustrations in UI design</h1>
 
           <div className='flex items-center justify-center pt-[54px]'>
             <img src="/video.png" alt="video" />
